@@ -40,7 +40,7 @@ header h1 {
     color: white;
 }
 
-svg {
+svg{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -49,6 +49,11 @@ svg {
 }
 
 section{
-    background-color: linear-gradient(#ff1f1f,#d0ff00);
-    transform: skew(0deg,10deg);
+    background-image: linear-gradient(#66ff1f,#d0ff00);
+    transform: skew(0deg,-20deg);
+    height: 50vh;
+}
+
+section>h1{
+    transform: skew(0deg,20deg);
 }
